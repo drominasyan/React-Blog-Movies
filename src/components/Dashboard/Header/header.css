@@ -1,0 +1,98 @@
+.menu {
+    background: #293043;
+    position: relative;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header {
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header ul li {
+    color: white;
+    list-style-type: none;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.header ul li a {
+    color: white;
+}
+
+.header img {
+    width: 140px;
+    margin-left: 7px;
+}
+
+.header input {
+    width: 280px;
+    height: 35px;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.timer {
+    position: absolute;
+    right: 0;
+    color: white;
+    margin: -35px 60px;
+}
+
+.timer span {
+    margin: 6px;
+    border: 1px solid white;
+    padding: 5px 8px;
+    height: 30px;
+}
+
+.statStop {
+    padding: 5px 15px;
+    background: radial-gradient(circle at 0% 0%, #293043 0%, rgb(160, 29, 103) 100%);
+    border: 1px solid white;
+}
+
+.counter {
+    margin: 0 15px;
+}
+.menuCustom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.userInfo{
+    color: white;
+    position: absolute;
+    z-index: 111;
+    right: 15px;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

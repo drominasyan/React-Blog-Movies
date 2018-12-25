@@ -1,0 +1,143 @@
+
+.rounded img {
+	width: 100%;
+}
+
+.date {
+	font-size: 20px;
+}
+
+.goSingle {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	min-height: 37px;
+	border: none;
+	background: #208c65;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.img-content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+@keyframes scale-display {
+	0% {
+		opacity: 0;
+		transform: scaleY(0);
+		-webkit-transform: scaleY(0);
+	}
+	
+	50% {
+		opacity: 0.7;
+		transform: scaleY(1.1);
+		-webkit-transform: scaleY(1.1);
+	}
+	100% {
+		transform: scaleY(1);
+		-webkit-transform: scaleY(1);
+	}
+}
+
+.chatInput {
+	position: absolute;
+	bottom: 10px;
+}
+
+.cancel {
+	transform: rotate(90deg);
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.coverflow__figure__3bk_C {
+	width: 150px !important;
+}
+
+.hidden {
+	display: none
+}
+
+.loginErrorMessage {
+	color: #ff0500;
+	font-size: 16px;
+	margin: 15px 0;
+	display: block;
+}
+
+.menuCustom a {
+	height: 100%;
+	display: flex;
+	float: right;
+	color: white;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px 15px;
+	margin-left: 10px;
+}
+
+.menuCustom a:hover {
+	background: #a71967;
+	color: white;
+	text-decoration: none;
+}
+
+.spinner {
+	/*position: absolute;*/
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.custom {
+	display: none
+}
+
+.movieInput {
+	background: url("../../../images/search.png");
+	background-repeat: no-repeat;
+	background-position: left 10px bottom;
+	background-margin: right;
+	background-color: white;
+	border: 0;
+	background-size: 15px;
+	background-position-y: center;
+	padding-left: 25px;
+	width: 100%;
+	height: 35px;
+	padding: 0 32px;
+	border-left: 1px solid #c3baba;
+	border-right: 1px solid #c3baba;
+}
+
+.fullSearchBlock {
+	background: white;
+}
+
+.cardFooter {
+	width: 185px;
+	min-height: 35px;
+	background: #293043;
+	z-index: 22;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 5px 10px;
+}
+

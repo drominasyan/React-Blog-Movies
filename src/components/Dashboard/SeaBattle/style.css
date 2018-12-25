@@ -1,0 +1,58 @@
+.boardTable {
+    position: relative;
+    color:white
+}
+
+.boardTable tr td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+
+}
+
+.helperNumbers {
+    position: absolute;
+    background: red;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.helperLetters {
+    background: red;
+    width: 30px;
+    margin-right: 5px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.four, .three, .twe, .single{
+    display: flex;
+    margin: 10px;
+}
+
+.one{
+    width:30px;
+    height: 30px;
+    border: 1px solid white;
+}
+.single .one{
+    margin-right: 5px;
+}
+.ships h3{
+    color:white;
+    margin-left: 10px;
+    display: block;
+}
+
+.myBoar{
+    display: flex;
+}

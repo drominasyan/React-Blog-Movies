@@ -1,0 +1,23 @@
+.pageNotFound {
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.contentPageNotFound {
+    position: absolute;
+    top: 123px;
+    right: 397px;
+    color: black;
+    width: 230px;
+    padding: 3px;
+    transform: rotate(0deg);
+}
+
+.goLogin {
+    background: white;
+    padding: 10px;
+    display: block;
+    color: black;
+    margin-top: 50px;
+}

@@ -1,0 +1,35 @@
+.fullContainer {
+    min-height: 120px;
+    position: relative;
+}
+
+.MovieContent {
+    margin-top: 20px;
+    color: white;
+    overflow: hidden;
+}
+
+.singleInfo {
+    margin-bottom: 15px;
+}
+
+.circle {
+    border: 5px solid #218563;
+    border-radius: 50%;
+    font-size: 15px;
+    display: flex;
+    width: 60px;
+    background: #293043;
+    height: 60px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.similarMovies {
+    margin-top: 30px;
+    text-align: center;
+}
+.similarMovies img{
+    cursor: pointer;
+}

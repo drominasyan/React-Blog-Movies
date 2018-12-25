@@ -1,0 +1,66 @@
+body {
+    background: radial-gradient(circle at 0% 0%, #293043 0%, rgb(160, 29, 103) 100%);
+    background-size: 100%;
+    min-height: 100vh;
+}
+@font-face {
+    src: url('../src/Assert/Bootstrap/fonts/glyphicons-halflings-regular.svg');
+}
+.content {
+    display: flex;
+}
+
+.moviebox {
+    font-size: 20px;
+}
+
+.override {
+    display: none;
+}
+
+.card {
+    margin: 10px;
+    cursor:pointer
+}
+
+.movies {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.center {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 25px;
+}
+
+.addPost {
+    float: right;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.active {
+    color: red
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    border-color: white;
+    background-color: #293043;
+}
+
+.hiddenImages {
+    display: none;
+}
+
+.font{
+    font-size: 16px;
+}

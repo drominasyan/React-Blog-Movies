@@ -1,0 +1,87 @@
+.LoginSignUpMain {
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle at 0% 0%, #293043 0%, rgb(160, 29, 103) 100%);
+}
+
+.mainForms {
+    box-shadow: 0 0 4px 0 #ffffff;
+    padding: 25px 20px;
+    display: flex;
+    min-height: 320px;
+    justify-content: space-evenly;
+    width: 700px;
+    flex-direction: row;
+}
+
+.loginMethods {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+
+.LoginSignUp {
+    width: 40%;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.signsourses {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.signsourses button {
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.mainForms h3 {
+    margin-top: 0;
+}
+
+.facebook {
+    background: #3b5998;
+}
+
+.twitter {
+    background: #1da1f2;;
+}
+
+.google {
+    background: #dd4d40;
+}
+
+.linkedin {
+    background: #0274b3;
+}
+
+.vivaDefault {
+    background: #a71f67;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.switcher {
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 0px #555;
+    background: #208c65;
+    color: #ffffff;
+}
+.signUpErrorMessage{
+    margin: 5px 0;
+    color:red
+}
