@@ -27,9 +27,6 @@ function Header() {
 							<Link to={'/'}>
 								Movies
 							</Link>
-							<Link to={'/seabattle'}>
-								Sea battle
-							</Link>
 						</div>
 					</div>
 				</div>
